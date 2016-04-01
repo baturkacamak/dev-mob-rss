@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-# ${1:DEV-MOB RSS Reader}
+# RSS Reader
 
 A simple RSS reader
 
