@@ -1,35 +1,39 @@
 <snippet>
   <content>
 # RSS Reader
+___
 
-A simple RSS reader
+A simple RSS reader by Batur Kaçamak
 
 ## Installation
+___
 
 * Just pull it from the repo
 
 ## Tools Used
+___
 
 * Back-end
- * Package Manager
-  * Composer
- * PHP
-  * Laravel 5
+    * Package Manager
+        * Composer
+    * PHP
+        * Laravel 5
 * Front-end
-  * Package Manager
-   * NPM
-  * Task Runner
-   * Gulp
-  * CSS4
-   * PostCSS
-    * Lost (Grid System)
-    * SMACSS
-   * PureCSS (CSS Library)
+    * Package Manager
+        * NPM
+    * Task Runner
+        * Gulp
+    * CSS4
+        * PostCSS
+        * Lost (Grid System)
+        * SMACSS
+        * PureCSS (CSS Library)
   * JS
-   * jQuery
-   * React.js
+    * jQuery
+    * React.js
    
 ## Reasons to use
+___
 
 ### Lost with PureCSS
 
@@ -52,6 +56,7 @@ A simple RSS reader
 * Watches specific task and runs only that task. In comparison, Grunt runs entire watch task. 
    
 ## What's next? (TODO List)
+___
 
 * Implement Flux
 * Better service provider for back-end (IoC Containers & Repository Pattern)
@@ -65,10 +70,13 @@ A simple RSS reader
 
 
 ## Credits
+___
 
 Batur Kaçamak
 
 ## License
+___
+The MIT License (MIT)
 
 
   </content>
