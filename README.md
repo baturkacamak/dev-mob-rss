@@ -1,17 +1,14 @@
 <snippet>
   <content>
 # RSS Reader
-___
 
 A simple RSS reader by Batur Kaçamak
 
 ## Installation
-___
 
 * Just pull it from the repo
 
 ## Tools Used
-___
 
 * Back-end
     * Package Manager
@@ -33,7 +30,6 @@ ___
     * React.js
    
 ## Reasons to use
-___
 
 ### Lost with PureCSS
 
@@ -56,7 +52,6 @@ ___
 * Watches specific task and runs only that task. In comparison, Grunt runs entire watch task. 
    
 ## What's next? (TODO List)
-___
 
 * Implement Flux
 * Better service provider for back-end (IoC Containers & Repository Pattern)
@@ -70,12 +65,11 @@ ___
 
 
 ## Credits
-___
 
 Batur Kaçamak
 
 ## License
-___
+
 The MIT License (MIT)
 
 
