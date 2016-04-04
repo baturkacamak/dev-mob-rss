@@ -1,28 +1,68 @@
 <snippet>
-  <content><![CDATA[
+  <content>
 # RSS Reader
 
 A simple RSS reader
 
 ## Installation
 
+* Just pull it from the repo
 
+## Tools Used
 
-## Usage
+* Back-end
+ * Package Manager
+  * Composer
+ * PHP
+  * Laravel 5
+* Front-end
+  * Package Manager
+   * NPM
+  * Task Runner
+   * Gulp
+  * CSS4
+   * PostCSS
+    * Lost (Grid System)
+    * SMACSS
+   * PureCSS (CSS Library)
+  * JS
+   * jQuery
+   * React.js
+   
+## Reasons to use
 
-TODO: Write usage instructions
+### Lost with PureCSS
 
-## Contributing
+* Bootstrap or Foundation has too much unnecessary classes which won't be needed in this project.
 
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
+### PostCSS
 
-## History
+* Faster compiling process compared to SASS.
+* No need to use redundant prefixes in compiled CSS file (saves bandwidth).
+* Usage of CSS4 (with cssnext)
 
-TODO: Write history
+### ReactJS
+
+* Greater performance with Virtual DOM over AngularJS
+* Possibility to use cleaner HTML sytnax with JSX
+
+### Gulp
+
+* Takes less time to run tasks compared to Grunt.
+* Watches specific task and runs only that task. In comparison, Grunt runs entire watch task. 
+   
+## What's next? (TODO List)
+
+* Implement Flux
+* Better service provider for back-end (IoC Containers & Repository Pattern)
+* Bootstrap
+* CSS Modules
+* Minify and GZ
+* Front-end automation with npm scripts
+* Infinity Loader
+* Switch to ES6 (with Babel)
+* Upgrade React to latest version
+
 
 ## Credits
 
@@ -31,6 +71,5 @@ Batur Kaçamak
 ## License
 
 
-]]></content>
-  <tabTrigger>readme</tabTrigger>
+  </content>
 </snippet>
