@@ -1,0 +1,52 @@
+body {
+    font-size: 85%;
+    line-height: 1.45em;
+
+    overflow: auto;
+
+    padding: 16px;
+
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+
+    border-radius: 3px;
+    background-color: red
+}
+
+a {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-transform: translateX(42em);
+            transform: translateX(42em);
+
+    color: rgba(128, 128, 255, 0.5);
+    background: -webkit-linear-gradient(top, #1e5799, #7db9e8);
+    background: linear-gradient(to bottom, #1e5799, #7db9e8)
+}
+
+a.primary-link {
+    color: blue
+}
+
+a.primary-link span {
+    background: blue
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 30em) and (min-width: 10em) {
+
+    body {
+        font-size: 30px
+    }
+
+    a {
+        font-size: 30px
+    }
+}
+

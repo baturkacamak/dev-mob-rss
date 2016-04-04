@@ -1,0 +1,32 @@
+@define-mixin transition $property: all, $time: 150ms, $easing: ease-out {
+  transition: $property $time $easing;
+}
+
+@define-mixin background-hover-dark $color {
+  transition: 200ms background-color ease-in-out;
+  background-color: $color;
+  &:hover, &:focus {
+    background-color: blackness($color, 10%);
+  }
+}
+
+@define-mixin global-border-radius {
+  border-radius: 4px;
+}
+
+@define-mixin global-box-shadow {
+  box-shadow: 0 0 4px rgba(#111, 0.4);
+}
+
+@define-mixin global-text-shadow $color: #333 {
+  text-shadow: 0 0 4px rgba($color, 0.2);
+}
+
+@define-mixin global-transition {
+  transition: all 200ms ease-in-out;
+}
+
+@define-mixin global-border-box {
+  @mixin global-border-radius;
+  @mixin global-box-shadow;
+}

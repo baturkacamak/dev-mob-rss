@@ -1,0 +1,23 @@
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+input:hover {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}

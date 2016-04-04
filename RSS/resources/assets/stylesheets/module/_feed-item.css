@@ -1,0 +1,27 @@
+.feed-item-title {
+    font-size: 1.2em;
+    border-bottom: 1px solid #DDD;
+    padding-bottom: 0.2em;
+    display: block;
+    margin-bottom: 0.4em;
+}
+
+.feed-item {
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.feed-item-description {
+    & img:first-child {
+        text-align: center;
+        margin: 0 auto 10px;
+        display: inherit;
+        padding: 5px;
+        border: 1px dashed #0275d8;
+        border-radius: 4px;
+        width: 100%;
+        height: auto;
+    }
+}

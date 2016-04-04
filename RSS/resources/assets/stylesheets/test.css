@@ -1,0 +1,41 @@
+
+@import "tools/_mixins.css";
+@import "tools/_variables.css";
+@import "tools/_media-queries.css";
+
+body {
+    padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45em;
+    background-color: var(--mainColor);
+    border-radius: 3px;
+
+    @mixin global-transition;
+    
+    @media (--small-viewport) {
+        font-size: 30px;
+    }
+}
+
+a {
+    transform: translateX(42em);
+    display: flex;
+    background: linear-gradient(to bottom, #1e5799, #7db9e8);
+    color: color(blue a(50%) whiteness(50%));
+    @media (--small-viewport) {
+        font-size: 30px;
+    }
+
+    &.primary-link {
+        color: var(--primaryColor);
+        & span {
+            background: blue;
+        }
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
